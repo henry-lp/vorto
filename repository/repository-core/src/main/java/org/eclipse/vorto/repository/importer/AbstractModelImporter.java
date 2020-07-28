@@ -54,7 +54,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 public abstract class AbstractModelImporter implements IModelImporter {
 
-  public static final long TTL_TEMP_STORAGE_INSECONDS = 60 * 5;
+  public static final long TTL_TEMP_STORAGE_INSECONDS = (long) 60 * 5;
 
   protected static Logger logger = Logger.getLogger(AbstractModelImporter.class);
 
